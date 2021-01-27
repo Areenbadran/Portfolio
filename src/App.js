@@ -4,6 +4,8 @@ import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
+import Projects from './components/projects';
+import Skills from './components/skills';
 
 class App extends Component {
   render() {
@@ -15,6 +17,8 @@ class App extends Component {
 					<Introduction></Introduction>
 					<About></About>
 					<Timeline></Timeline>
+          <Projects></Projects>
+          <Skills></Skills>
           	</div>
       	</div>
       </div>
