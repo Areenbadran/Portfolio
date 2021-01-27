@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
-import Timeline from './components/timeline'
+import Sidebar from './components/sidebar';
+import Home from './components/home';
+import About from './components/about';
+import Timeline from './components/timeline';
 import Projects from './components/projects';
 import Skills from './components/skills';
 
@@ -14,7 +14,7 @@ class App extends Component {
         <div id="container-wrap">
          	<Sidebar></Sidebar>
 				<div id="colorlib-main">
-					<Introduction></Introduction>
+					<Home></Home>
 					<About></About>
 					<Timeline></Timeline>
           <Projects></Projects>
