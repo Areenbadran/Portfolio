@@ -6,11 +6,11 @@ export default class Sidebar extends Component {
       <div>
         <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-          <aside id="colorlib-aside" className="border js-fullheight">
+          <aside id="colorlib-aside" className="border js-fullheight" style={{backgroundColor:"#FFFAFA"}}>
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/602A6253.jpg)'}} />
+              <div className="author-img" style={{backgroundImage: 'url(images/A86P00055.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Areen Badran</a></h1>
-              <h4>Software Engineer</h4>
+              <h5 style={{fontFamily:"unset"}}>Full-Stack Software Engineer</h5>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">

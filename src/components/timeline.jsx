@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Timeline extends Component {
   render() {
@@ -7,7 +7,10 @@ export default class Timeline extends Component {
         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <div
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
                 <span className="heading-meta">highlights</span>
                 <h2 className="colorlib-heading animate-box">Timeline</h2>
               </div>
@@ -15,44 +18,112 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
                     <div className="timeline-entry-inner">
-
-                      <div className="timeline-icon color-3" style={{backgroundImage: 'url(images/blog-1.jpg)'}}>
-                        {/* <i className="icon-pen2" /> */}
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2" />
                       </div>
-
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <h2>
+                          RBK Jordan's Full Stack Software Engineering program{" "}
+                          <span>2020-2021</span>
+                        </h2>
+                        <p>
+                          It is about 20 weeks dilevered in 2 phases. Phase 1 is
+                          6 weeks, it is an introduction to computer programming
+                          and Javascript. Phase 2 is Hack Reactor's 13-week full
+                          stack program. It is an immersive program, delivering
+                          high-value skills (technical, non-technical) and
+                          autonomous learning ability.
+                        </p>
+                        <p>
+                          3 full stack projects had been done through the second
+                          phase, all of them were with great teams. Learning new
+                          technologies and implementing them in projects is a
+                          perfect way to be a successful software engineer!
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInTop"
+                  >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
+                        <h2>
+                          Structural Design Engineer <span>2019-2020</span>
+                        </h2>
+                        <p>
+                          Trainee at Dar Al Omran Planning Architecture
+                          Engineering company. The main goal was applying
+                          theoretical knowledge that had been taken in the
+                          university into practical work. Since the training was
+                          at office, the design engineer must take place using
+                          software programs like Proton, Etabs, Safe and
+                          AutoCAD. Having a creative skills in using the
+                          engineering software programs and learning design
+                          technologies following criteria due to the Jordanian
+                          code.
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>
+                          Math and Physics Tutor <span>2015-2020</span>
+                        </h2>
+                        <p>
+                          Working as private teacher, teaching Math and Physics
+                          for national and international educational systems,
+                          Preparing primary and secondary students individually
+                          for tests and improving their educational skills.
+                          Also, Solving complex problems of the fundamental Math
+                          and Physics which helped me to improve my
+                          understanding of any problem and improving my
+                          mathematical skills.
+                        </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+
+                  <article
+                    className="timeline-entry begin animate-box"
+                    data-animate-effect="fadeInBottom"
+                  >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Civil Engineering at University Of Jordan{" "}
+                          <span>2015-2020</span>
+                        </h2>
+                        <p>
+                          Pursuing my under-graduation studies with major in
+                          Civil Engineering. Taking courses such as C++, Revit,
+                          Safe, Etabs and other engineering softwares over the
+                          years. Also, attending conferences like Solid Waste
+                          Management in Jordan University of Science and
+                          Technology. Graduated with Very Good GPA (3.26/4.00).
+                        </p>
                       </div>
                     </div>
                   </article>
@@ -62,6 +133,6 @@ export default class Timeline extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
