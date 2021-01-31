@@ -5,7 +5,6 @@ export default class Home extends Component {
     return (
       <div>
         <section
-        
           id="colorlib-hero"
           className="js-fullheight"
           data-section="home"
